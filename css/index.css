@@ -1,0 +1,334 @@
+header.mui-bar {
+	background-color: rgb(253, 217, 0);
+}
+
+a {
+	color: #000;
+}
+
+li {
+	list-style: none;
+}
+
+.mui-content {
+	margin-top: -1px;
+}
+
+.mui-control-content {
+	background-color: white;
+	min-height: 215px;
+}
+
+.mui-control-content .mui-loading {
+	margin-top: 50px;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar {
+	background-color: rgb(253, 217, 0);
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item,
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+	color: #000;
+	background-color: #fff;
+}
+
+
+/*.title {
+	margin: 20px 15px 10px;
+	color: #6d6d72;
+	font-size: 15px;
+}*/
+
+.oa-contact-cell.mui-table .mui-table-cell {
+	padding: 11px 0;
+	vertical-align: middle;
+}
+
+.oa-contact-cell {
+	position: relative;
+	margin: -11px 0;
+}
+
+.oa-contact-avatar {
+	width: 75px;
+}
+
+.oa-contact-avatar img {
+	border-radius: 50%;
+}
+
+.oa-contact-content {
+	width: 100%;
+}
+
+.oa-contact-name {
+	margin-right: 20px;
+}
+
+.oa-contact-name,
+oa-contact-position {
+	float: left;
+}
+
+.mui-bar-tab .mui-tab-item .mui-icon~.mui-tab-label {
+	color: #000;
+}
+
+.mui-bar-tab .mui-tab-item.mui-active .mui-icon:before {
+	color: rgb(253, 217, 0);
+}
+
+.mui-slider .mui-slider-group .mui-slider-item {
+	height: 800px;
+}
+
+.mui-scroll-wrapper {
+	height: 800px;
+}
+
+.mui-scroll {
+	height: 800px;
+}
+
+.activitity {
+	background-color: #f5f5f5;
+}
+
+.activitity .tip {
+	height: 45px;
+	line-height: 45px;
+}
+
+.activitity .tip .timepng {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.activitity .tip span {
+	opacity: 0.55;
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	color: #4a4a4a;
+}
+
+.activititycont {
+	background-color: #fff;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.activititycont {
+	padding-top: 16px;
+}
+
+.activititycont .head .tit {
+	font-size: 16px;
+	margin-left: 16px;
+}
+
+.activititycont .head .time {
+	margin-right: 16px;
+	font-size: 14px;
+}
+
+.activititycont .cont {
+	margin-left: 16px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.activititycont .cont p {
+	font-size: 16px;
+}
+
+.activititycont .cont p:nth-child(2) {
+	font-size: 14px;
+}
+
+.activititycont .cont .imIn {
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 30px;
+	text-align: center;
+	right: 10px;
+	bottom: 10px;
+	background-color: rgb(253, 217, 0);
+}
+
+.imInbox {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 998;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(253, 217, 0);
+}
+
+.imInbox .cancel {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 20px;
+	height: 20px;
+}
+
+.imInbox .cancel img {
+	width: 100%;
+}
+
+.acInfo {
+	margin: 80px 20px 0;
+}
+
+.acInfo .head {
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-weight: 700;
+	border-bottom: 1px solid #999;
+}
+
+.acInfo .content {
+	border-bottom: 1px solid #999;
+	margin-bottom: 30px;
+}
+
+.acInfo .content p {
+	font-size: 14px;
+	color: #000;
+}
+
+.mui-input-group {
+	background-color: inherit;
+}
+
+.mui-input-row {
+	margin-bottom: 20px;
+}
+
+.mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+	background-color: rgb(254, 238, 140);
+	border-radius: 5px;
+}
+
+.mui-input-group .mui-input-row:after,
+.mui-input-group:before,
+.mui-input-group:after {
+	height: 0;
+}
+
+.acInfo .footconfirm {
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+.acInfo .footconfirm .mui-btn-blue,
+.mui-btn-primary,
+input[type=submit] {
+	background-color: inherit;
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+	border: none;
+}
+
+.mui-table-view {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.mui-table-view .mui-media-object {
+	max-width: 100px;
+	height: 100px;
+}
+
+.mui-table-view-cell>a:not(.mui-btn) {
+	white-space: normal;
+	text-overflow: inherit;
+}
+
+.project {
+	padding-top: 20px;
+}
+
+.project p {
+	margin-top: 10px;
+}
+
+.mui-navigate-right:after,
+.mui-push-left:after,
+.mui-push-right:after {
+	font-size: 30px;
+}
+
+.mui-navigate-right:after,
+.mui-push-right:after {
+	right: -10px;
+}
+#item2mobile {
+	background-color: #f5f5f5;
+}
+#item2mobile h4 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size:14px;
+	font-weight: 400;
+	opacity: .2;
+}
+#item2mobile .tabs ul{
+	padding: 0;
+	margin-left: 20px;
+}
+#item2mobile .tabs ul li.first {
+	margin-left: 0;
+	color:#4a4a4a
+}
+#item2mobile .tabs ul li{
+	float: left;
+	margin-left: 10px;
+	color: #929292;
+}
+.job {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.job .jobhead {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.job .jobInformation {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: #F0AD4E;
+}
+.job .jobhead .salary {
+	color: #f00;
+}
+.job .obcont{
+	
+}
+.job .jobfoot .hot {
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid rgb(253, 217, 0);
+	border-radius: 4px;
+}
