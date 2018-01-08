@@ -311,6 +311,8 @@ input[type=submit] {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+
 .job .jobInformation {
 	background-color: #fff;
 	padding: 20px;
@@ -321,7 +323,7 @@ input[type=submit] {
 	color: #f00;
 }
 .job .obcont{
-	
+	color: red;
 }
 .job .jobfoot .hot {
 	display: inline-block;
