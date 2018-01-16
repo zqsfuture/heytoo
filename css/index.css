@@ -10,6 +10,10 @@ li {
 	list-style: none;
 }
 
+.colorred {
+	color: #f00;
+}
+
 .mui-content {
 	margin-top: -1px;
 }
@@ -176,6 +180,59 @@ oa-contact-position {
 	background-color: rgb(253, 217, 0);
 }
 
+.imInbox.qiuBox,
+.imInbox.qiuBoxDetail {
+	background-color: #fff;
+}
+
+.imInbox.qiuBoxDetail {
+	padding: 0 15px;
+}
+
+.imInbox.qiuBoxDetail .headcont {
+	margin-top: 50px;
+}
+
+.imInbox.qiuBoxDetail .mui-content {
+	background-color: #fff;
+}
+
+.imInbox.qiuBoxDetail .mui-content .mui-row {
+	border-bottom: 1px solid #999;
+	padding-bottom: 16px;
+	padding-top: 16px;
+	font-size: 16px;
+}
+
+.imInbox.qiuBoxDetail .jobcont {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+
+.imInbox.qiuBoxDetail .contact {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+
+.imInbox.qiuBoxDetail .contact .mui-icon {
+	font-size: 16px;
+}
+
+.imInbox.qiuBoxDetail .footcont {
+	margin-top: 20px;
+}
+
+.imInbox.qiuBoxDetail .footcont ul {
+	padding: 0;
+}
+
+.imInbox.qiuBoxDetail .footcont ul li {
+	font-size: 14px;
+	word-break: break-all;
+}
+
 .imInbox .cancel {
 	position: absolute;
 	top: 20px;
@@ -218,9 +275,9 @@ oa-contact-position {
 	margin-bottom: 20px;
 }
 
-.mui-input-row label~input,
-.mui-input-row label~select,
-.mui-input-row label~textarea {
+.acInfo .mui-input-row label~input,
+.acInfo .mui-input-row label~select,
+.acInfo .mui-input-row label~textarea {
 	background-color: rgb(254, 238, 140);
 	border-radius: 5px;
 }
@@ -279,52 +336,62 @@ input[type=submit] {
 .mui-push-right:after {
 	right: -10px;
 }
+
 #item2mobile {
 	background-color: #f5f5f5;
 }
+
 #item2mobile h4 {
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	font-size:14px;
+	font-size: 14px;
 	font-weight: 400;
 	opacity: .2;
 }
-#item2mobile .tabs ul{
+
+#item2mobile .tabs ul {
 	padding: 0;
 	margin-left: 20px;
 }
+
 #item2mobile .tabs ul li.first {
 	margin-left: 0;
-	color:#4a4a4a
+	color: #4a4a4a
 }
-#item2mobile .tabs ul li{
+
+#item2mobile .tabs ul li {
 	float: left;
 	margin-left: 10px;
 	color: #929292;
 }
+
 .job {
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
 .job .jobhead {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-
 .job .jobInformation {
 	background-color: #fff;
 	padding: 20px;
-	border-radius: 4px;
+	border-radius: 10px;
 	box-shadow: #F0AD4E;
+	margin-bottom: 10px;
 }
+
 .job .jobhead .salary {
 	color: #f00;
 }
-.job .obcont{
+
+.job .obcont {
 	color: red;
 }
+
 .job .jobfoot .hot {
 	display: inline-block;
 	width: 70px;
@@ -333,4 +400,81 @@ input[type=submit] {
 	text-align: center;
 	border: 1px solid rgb(253, 217, 0);
 	border-radius: 4px;
+}
+
+.job .addJob {
+	position: fixed;
+	right: 20px;
+	top: 420px;
+	width: 30px;
+	height: 30px;
+}
+
+.job .topTop {
+	position: fixed;
+	right: 20px;
+	top: 460px;
+	width: 30px;
+	height: 30px;
+}
+
+.job .addJob img {
+	width: 100%;
+}
+
+.qiuJob {
+	margin: 80px 20px 0;
+}
+
+.qiuJob .headtop {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.qiuJob .mui-input-row {
+	font-size: 16px;
+}
+
+.qiuJob .mui-input-row label {
+	text-align: center;
+	width: 40%;
+	padding: 11px 0;
+}
+
+.qiuJob .mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+	width: 60%;
+	font-size: 16px;
+}
+
+.qiuJob .mui-input-row label.qiuNamelable {
+	width: 30%;
+}
+
+.qiuJob .mui-input-row label~input.qiuName,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+	width: 70%;
+}
+
+.qiuJob .mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+	border-bottom: 1px solid #999;
+}
+
+.introduce {
+	border-bottom: 1px solid #999;
+}
+
+.qiuJob .publish {
+	margin-top: 20px;
+	background-color: rgb(253, 217, 0);
+}
+
+.qiuJob .publish .mui-btn-primary {
+	font-size: 20px;
+	color: #333;
 }
