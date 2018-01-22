@@ -38,8 +38,8 @@
 		<div class="mui-content">
 			<div id="tabbar" class="mui-control-content mui-active">
 				<div class="mui-slider">
-					<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
-						<a class="mui-control-item" href="#item1mobile">
+					<div id="sliderSegmentedControl" class="mui-segmented-control">
+						<a class="mui-control-item mui-active" href="#item1mobile">
 							鸭店门面
 						</a>
 						<a class="mui-control-item" href="#item2mobile">
@@ -77,15 +77,16 @@
 										<h3 class="tip"><span class="timepng"><img src="img/time.png"/></span><span>即将开始的线下活动</span></h3>
 										<div class="activititycont">
 											<div class="head mui-clearfix">
-												<span class="tit mui-pull-left mui-clearfix">前端小伙伴喝茶交友</span>
-												<sapn class="time mui-pull-right">时间：2018.1.21</sapn>
+												<span class="tit mui-pull-left mui-clearfix nameTitle">前端小伙伴喝茶交友</span>
+												<sapn class="time mui-pull-right time">时间：2018.1.21</sapn>
 											</div>
 											<div class="cont mui-clearfix">
-												<p>长沙市文化艺术中心金茂城2楼</p>
-												<p>自费 AA制 已有10位小伙伴参与</p>
+												<p class="addr">长沙市文化艺术中心金茂城2楼</p>
+												<p>自费 <span class="style">AA制</span> 已有10位小伙伴参与</p>
 												<div class="imIn">我要参加</div>
 											</div>
-											<div class="footslider">
+										</div>
+										<div class="footslider">
 												<div id="slider" class="mui-slider">
 													<div class="mui-slider-group mui-slider-loop">
 														<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
@@ -139,7 +140,6 @@
 													</div>
 												</div>
 											</div>
-										</div>
 									</div>
 								</div>
 							</div>
@@ -158,7 +158,7 @@
 										</ul>
 									</div>
 									<div class="job">
-										<div class="jobInformation mui-clearfix">
+										<!--<div class="jobInformation mui-clearfix">
 											<div class="jobhead mui-clearfix">
 												<span class="mui-pull-left">后台开发</span>
 												<span class="mui-pull-right salary">8-10k</span>
@@ -176,8 +176,8 @@
 												<span class="mui-pull-left">黑小白</span>
 												<span class="mui-pull-right hot">鸭店推荐</span>
 											</div>
-										</div>
-										<div class="jobInformation mui-clearfix">
+										</div>-->
+										<!--<div class="jobInformation mui-clearfix">
 											<div class="jobhead mui-clearfix">
 												<span class="mui-pull-left">产品</span>
 												<span class="mui-pull-right salary">7-10k</span>
@@ -193,14 +193,13 @@
 											</p>
 											<div class="jobfoot mui-clearfix">
 												<span class="mui-pull-left">张无忌</span>
-												<!--<span class="mui-pull-right hot">鸭店推荐</span>-->
 											</div>
-										</div>
-										<div class="addJob"><img src="img/qiu0.png" /></div>
-										<div class="topTop"><img src="img/dingbu.png" /></div>
-									</div>
-								</div>
+										</div>-->
 
+									</div>
+									<div class="addJob"><img src="img/qiu0.png" /></div>
+									<div class="topTop"><img src="img/dingbu.png" /></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -305,41 +304,41 @@
 					<form class="mui-input-group">
 						<div class="mui-input-row">
 							<label class="qiuNamelable">姓名</label>
-							<input type="text" class="mui-input-clear mui-text-center qiuName" placeholder="">
+							<input type="text" class="mui-input-clear mui-text-center qiuName name" placeholder="">
 						</div>
 						<div class="mui-row mui-clearfix">
 							<div class="mui-col-sm-6 mui-col-xs-6">
 								<div class="mui-input-row">
 									<label>求职职位</label>
-									<input type="text" class="mui-input-clear mui-text-center" placeholder="">
+									<input type="text" class="mui-input-clear mui-text-center apply_job" placeholder="">
 								</div>
 								<div class="mui-input-row">
 									<label>担任职位</label>
-									<input type="text" class="mui-input-clear mui-text-center" placeholder="">
+									<input type="text" class="mui-input-clear mui-text-center assume_job" placeholder="">
 								</div>
 								<div class="mui-input-row">
 									<label>电话号码</label>
-									<input type="text" class="mui-input-clear mui-text-center" placeholder="">
+									<input type="text" class="mui-input-clear mui-text-center tel" placeholder="">
 								</div>
 							</div>
 							<div class="mui-col-sm-6 mui-col-xs-6">
 								<div class="mui-input-row">
 									<label>期望月薪</label>
-									<input type="text" class="mui-input-clear mui-text-center" placeholder="">
+									<input type="text" class="mui-input-clear mui-text-center apply_pay" placeholder="">
 								</div>
 								<div class="mui-input-row">
 									<label>工作经验</label>
-									<input type="text" class="mui-input-clear mui-text-center" placeholder="">
+									<input type="text" class="mui-input-clear mui-text-center work_year" placeholder="">
 								</div>
 								<div class="mui-input-row">
 									<label>QQ</label>
-									<input type="text" class="mui-input-clear mui-text-center" placeholder="">
+									<input type="text" class="mui-input-clear mui-text-center qq" placeholder="">
 								</div>
 							</div>
 						</div>
 						<div class="introduce">
 							简介：
-							<textarea name="" rows="6" cols="10"></textarea>
+							<textarea name="" rows="6" cols="10" class="contentIntro"></textarea>
 						</div>
 						<div class="mui-button-row publish">
 							<button type="button" class="mui-btn mui-btn-primary mui-icon mui-icon-paperplane issue">发布</button>
