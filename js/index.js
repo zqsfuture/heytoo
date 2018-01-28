@@ -112,23 +112,57 @@ $(function() {
 			}
 		});
 	})
-	
+
 	//	获取活动列表
 	getInfo();
+
 	function getInfo() {
 		$.ajax({
 			type: "get",
 			url: GETINFO,
 			success: function(res) {
-				console.log(res);
-				$(".nameTitle").html(res.name);
-				$(".time").html(res.time);
-				$(".addr").html(res.addr);
-				$(".style").html(res.style);
+				var date = JSON.parse(res)
+				console.log(JSON.parse(res));
+				$(".nameTitle").html(date.name);
+				$(".timeT").html(date.time.slice(0, 10));
+				$(".addr").html(date.addr);
+				$(".style").html(date.style);
+				$(".status").html(date.status);
 			},
 			error: function(error) {
 				console.log(error);
 			}
 		});
 	}
+	
+//	新增活动
+	$(".confirmIn").click(function() {
+		var name = $(".yourname").val();
+		var phone = $(".phone").val();
+		var qq = $(".qq").val();
+		var date = {
+			"name": name,
+			"phone": phone,
+			"qq": qq
+		}
+		console.log(date);
+		$.ajax({
+			type: "post",
+			url: CREATE,
+			async: true,
+			data: date,
+			success: function(res) {
+				console.log(res);
+				$(".qiuBox").hide();
+				mui.toast('添加成功', {
+					duration: 'long',
+					type: 'div'
+				});
+				queryQiuzhi();
+			},
+			error: function(error) {
+				console.log(error);
+			}
+		});
+	})
 })
